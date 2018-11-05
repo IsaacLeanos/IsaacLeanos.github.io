@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300');
+
+body{
+    font-family: Nunito,'Courier New', monospace;
+    margin:15px 15px;
+    border: 1px solid red;
+}
+
+/* ======================================
+                NAVIGATION
+ ========================================*/
+#navigation {
+    border: 1px solid blue;
+    font-size: 1.5rem;
+}
+
+#navigation .nav-link {
+    color: rgb(10, 4, 4);
+}
+
+#navigation .nav-item {
+    font-size: 15px;
+}
+
+#navigation .navbar-brand {
+    color: rgb(0, 0, 0);
+    font-size: 2.1rem;
+}
+
+.navbar.scrolled {
+    background: rgba(212, 49, 212, 0.877);
+    transition: background 500ms;
+}
+
+/* ======================================
+                SECTION
+ ========================================*/
+
+#section-1{
+    border: 1px solid green;
+}
+#section-1 .container{
+    border: 1px solid purple;
+    padding: 18px 18px;
+    margin-right: 150px;
+    margin-left: 0px;
+    max-width: 850px;
+}
+/* #section-1 p{
+    margin: 17px 17px;
+} */
