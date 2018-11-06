@@ -52,15 +52,15 @@ body{
     margin: 0 auto;
  }
 #section-1{
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 #section-2{
-    border: 1px solid orange; 
+    /* border: 1px solid orange;  */
 }
 .row{
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 .col-md-4{
-    border:1px solid yellowgreen;
+    /* border:1px solid yellowgreen; */
 }
