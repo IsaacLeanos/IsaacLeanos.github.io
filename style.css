@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:300');
+/* @import url('https://fonts.googleapis.com/css?family=Kaushan+Script'); */
 
 body{
-    font-family: Nunito,'Courier New', monospace;
-    margin:15px 15px;
-    border: 1px solid red;
+    font-family: 'Nunito','Courier New', monospace;
+    margin:0 15px;
+    /* border: 1px solid red; */
 }
 
 /* ======================================
                 NAVIGATION
  ========================================*/
 #navigation {
-    border: 1px solid blue;
-    font-size: 1.5rem;
+    /* border: 1px solid blue; */
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #navigation .nav-link {
@@ -19,11 +21,19 @@ body{
 }
 
 #navigation .nav-item {
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 3;
+}
+
+#navigation .nav-item a{
+    padding: 0;
+    padding-left: 45px;
 }
 
 #navigation .navbar-brand {
     color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 2.1rem;
 }
 
@@ -36,16 +46,21 @@ body{
                 SECTION
  ========================================*/
 
+ section{
+    height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+ }
 #section-1{
     border: 1px solid green;
 }
-#section-1 .container{
-    border: 1px solid purple;
-    padding: 18px 18px;
-    margin-right: 150px;
-    margin-left: 0px;
-    max-width: 850px;
+
+#section-2{
+    border: 1px solid orange; 
 }
-/* #section-1 p{
-    margin: 17px 17px;
-} */
+.row{
+    border:1px solid red;
+}
+.col-md-4{
+    border:1px solid yellowgreen;
+}
