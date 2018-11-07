@@ -30,15 +30,23 @@ body{
     padding-left: 45px;
 }
 
+#navigation ul.navbar-nav > li:active a{
+    color: white;
+}
+
 #navigation .navbar-brand {
     color: rgb(0, 0, 0);
-    padding-top: 50px;
+    padding-top: 50px; 
     padding-bottom: 50px;
     font-size: 2.1rem;
 }
 
+.active{
+    background-color: blue;
+}
+
 .navbar.scrolled {
-    background: rgba(212, 49, 212, 0.877);
+    background: rgba(110, 90, 110, 0.877);
     transition: background 500ms;
 }
 
@@ -57,6 +65,9 @@ body{
 
 #section-2{
     /* border: 1px solid orange;  */
+}
+#section-3{
+    /* border: 1px solid rgb(255, 0, 170);  */
 }
 .row{
     /* border:1px solid red; */
